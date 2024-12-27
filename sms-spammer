@@ -16,7 +16,7 @@ SIM_ID=""
 function usage {
 	echo -e "\e[38;5;33mUsage: $(basename $0) -n <numbers> -s <sim> -c <count> [options]\e[0m"
 	echo -e "\t\e[38;5;76m-n --numbers\e[0m    Comma-separated list of phone numbers (e.g., 123456789,+48987654321,999444666)"
-	echo -e "\t\e[38;5;76m-s --sim\e[0m        SIM slot to use (0 for SIM 1, 1 for SIM 2)"
+	echo -e "\t\e[38;5;76m-s --sim\e[0m        SIM slot to use (1 for SIM1 or 2 for SIM2)"
 	echo -e "\t\e[38;5;76m-c --count\e[0m      Number of SMS to send (required)"
 	echo -e "\t\e[38;5;76m-d --delay\e[0m      Delay between sending SMS (default: 10 seconds)"
 	echo -e "\t\e[38;5;76m-mt --message-text\e[0m   Send text message provided via command line"
